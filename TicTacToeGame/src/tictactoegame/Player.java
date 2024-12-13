@@ -4,10 +4,10 @@ package tictactoegame;
  * Enumeration for the players move
  */
 
-public enum Player {
+enum Player {
 	Empty, Cross, Nought
 }
 
-public enum GameState {
+enum GameState {
 	Playing, Draw, Cross_won, Nought_won
 }
